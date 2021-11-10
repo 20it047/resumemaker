@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                    *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+         nav{
+    background: #5271ff;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  nav ul li a.active,nav ul li a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+  /* ----------box------- */
+  .box{
+  
+    color: #e2f0f9;
+position: relative;
+top: 45%; 
+font-size: 40px;
+text-decoration: none;
+text-transform: none;
+ }
+  #chooseone{
+    background-color: #e2f0f9; 
+    width: 100%;
+    height: 600px; 
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box1{
+    height: 300px;
+    width: 300px;
+    background-color: #5271ff;
+    text-align: center;
+    border-radius: 7px;
+    margin: 30px;
+    transition: 0.7s;
+    
+
+  }
+  .box1:hover{
+    height: 350px;
+    width: 350px;
+    background-color: #5271ff;
+    text-align: center;
+    border-radius: 7px;
+    margin: 30px;
+  }
+    </style>
+</head>
+<body>
+    <nav>
+        <label class="logo">Resume Builder</label>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="index.html">Template</a></li>
+          <li><a href="#">Example</a></li>
+          <li><a href="index.html">Why Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div id="chooseone" >
+      <div class="box1">
+        <a href="/Page-1/page-1.html" class="box">Create a new resume</a>
+    </div>
+    <div class="box1">
+      <a href="#" class="box">Fatch a data from old resume</a>
+  </div>
+
+    </div>
+    <div style="text-align:center; background-color: #5271ff; color: #e2f0f9; font-size: 20px;">
+    <a href="#" style="color: white;">Go To Home Page</a></div>
+</body>
+</html>

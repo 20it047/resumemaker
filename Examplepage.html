@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>ExamplePage</title> -->
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+         nav{
+    background: #5271ff;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+  /* image css start------------- */
+#mainimg{
+    width: 100%;
+    height: 600px;
+    border: 0px;
+}
+/* job list css start--------- */
+.joblist li{
+    display: inline-block;
+    padding: 0px 10px;
+    margin-top: 20px;
+    height: auto;
+    background-color: #5271ff;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+
+}
+.joblist a{
+    color: white;
+    text-decoration: none;
+
+}
+.joblist a:hover{
+    background-color: #0d279b;
+    cursor: pointer;
+
+}
+.joblist{
+    text-align: center;
+    margin-top: 20px;
+}
+#all{
+    background-color: #0d279b;
+}
+
+/* resumelist css staretd--------- */
+
+.resume{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:50px;
+}
+.resume-col{
+    flex-basis:32%;
+    border-radius:20px;
+    margin-bottom:30px;
+    position:relative;
+    overflow: hidden;
+    float:left;
+}
+.resume-col img{
+    width:50vh;
+    height:100%;
+}
+.layer{
+    background: transparent;
+    
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:5px;
+    left:0;
+    font-size: 30px;
+    
+}
+.layer a{
+    font-family: Century Gothic;
+    text-decoration: none;
+    background-color: blue;
+    border:1px solid blue;
+    border-radius: 10px;
+    color:white;
+    padding:10px;
+    bottom: 0;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background:rgba(36, 69, 255, 0.527);
+}
+.row{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+.resume-col:hover a{
+    font-family: Century Gothic;
+    text-decoration: none;
+    background-color: blue;
+    border:1px solid blue;
+    border-radius: 10px;
+    color:white;
+    padding:10px;
+    
+    opacity: 1;
+}
+.layer:hover a{
+bottom: 49%;
+opacity: 1;
+}
+.joblist{
+    width: 100%;
+    background-color: #5271ff;
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <label class="logo">Resume Builder</label>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="/index.html#temp">Template</a></li>
+          <li><a href="#">Example</a></li>
+          <li><a href="index.html#sec1">Why Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <img src="tempimg1.png" alt="" id="mainimg">
+    <div id="maindon">
+        <div class="joblistmenu">
+            <ul class="joblist">
+                <li id="all">All</li>
+                <li><a href="#web_dev">Web Developer</a></li>
+                <li><a href="#software_engineer">Software Engineer</a></li>
+                <li><a href="#data_analyst">Data Analyst</a></li>
+                <li><a href="#data_engineer">Data Engineer</a></li>
+                <li><a href="#electrical_engineer">Electrical Engineer</a></li>
+                <li><a href="#it_manager">IT Manager</a></li>
+
+            </ul>
+        </div>
+    </div>
+    <section class="resume">
+        <div id="web_dev" class="joblist"> <h1 style="font-size: 30px; font-family: 'Times New Roman', Times, serif;" >Web Developer</h1></div>
+        <div class="row">
+            <div class="resume-col">
+                <img src="images/Web Dev/resume_1.png" alt="">
+                <div class="layer">
+                    <a href="https://drive.google.com/uc?export=download&id=19EuDq6pfSGkeVrKpLR1v7hgrI9h9g3bF">Download</a>
+                </div>
+            </div>
+            <div class="resume-col">
+                <img src="images/Web Dev/resume_2.png" alt="">
+                <div class="layer">
+                    <a href="https://drive.google.com/uc?export=download&id=1AofwX8ha6mP7FIvmFFlJXX7QPo-z6YUR">Download</a>
+                </div>
+            </div>
+            <div class="resume-col">
+                <img src="images/Web Dev/resume_3.png" alt="">
+                <div class="layer">
+                    <a href="https://drive.google.com/uc?export=download&id=1ApENjEjO4DZQEmrUbXfOIuekMR0n8YXx">Download</a>
+                </div>
+            </div>
+        </div>
+        <div id="software_engineer" class="joblist"> <h1 style="font-size: 30px; font-family: 'Times New Roman', Times, serif;" >Software Engineer</h1></div>
+
+        <div class="row">
+            <div class="resume-col">
+                <img src="images/Software Engineer/resume_1.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/software-engineer-resume-example.pdf">Download</a>
+                </div>
+            </div>
+            <div class="resume-col" id="center">
+                <img src="images/Software Engineer/resume_2.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/python-developer-resume-example.pdf">Download</a>
+                </div>
+            </div>
+            <div class="resume-col">
+                <img src="images/Software Engineer/resume_3.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/entrylevel-software-engineer-resume-example.pdf">Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume">
+        <div id="data_analyst" class="joblist"> <h1 style="font-size: 30px; font-family: 'Times New Roman', Times, serif;">Data Analyst</h1></div>
+        <div class="row">
+            <div class="resume-col">
+                <img src="images/Data Analyst/resume_1.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/data-analyst-resume-example.pdf">Download</a>
+                </div>
+            </div>
+            <div class="resume-col">
+                <img src="images/Data Analyst/resume_2.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/sql-data-analyst-resume-example.pdf">Download</a>
+                </div>
+            </div>
+            <div class="resume-col">
+                <img src="images/Data Analyst/resume_5.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/analytics-manager-resume-example.pdf">Download</a>
+                </div>
+            </div>
+        </div>
+        <div id="data_engineer" class="joblist"> <h1 style="font-size: 30px; font-family: 'Times New Roman', Times, serif;" >Data Engineer</h1></div>
+
+        <div class="row">
+            <div class="resume-col">
+                <img src="images/Data Engineer/resume_1.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/data-engineer-resume-example.pdf">Download</a>
+                </div>
+            </div>
+            <div class="resume-col" id="center">
+                <img src="images/Data Engineer/resume_2.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/big-data-engineer-resume-example.pdf">Download</a>
+                </div>
+            </div>
+            <div class="resume-col">
+                <img src="images/Data Engineer/resume_3.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/entrylevel-data-engineer-resume-example.pdf">Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="resume">
+        <div id="electrical_engineer" class="joblist"> <h1 style="font-size: 30px; font-family: 'Times New Roman', Times, serif;" >Electrical Engineer</h1></div>
+        <div class="row">
+            <div class="resume-col">
+                <img src="images/Electrical Engineer/resume_1.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/electrical-engineer-resume-example.pdf">Download</a>
+                </div>
+            </div>
+            <div class="resume-col">
+                <img src="images/Electrical Engineer/resume_2.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/senior-electrical-engineer-resume-example.pdf">Download</a>
+                </div>
+            </div>
+            <div class="resume-col">
+                <img src="images/Electrical Engineer/resume_3.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/entry-level-electrical-engineer-resume-example.pdf">Download</a>
+                </div>
+            </div>
+        </div>
+        <div id="it_manager" class="joblist"> <h1 style="font-size: 30px; font-family: 'Times New Roman', Times, serif;" >IT Manager</h1></div>
+
+        <div class="row">
+            <div class="resume-col">
+                <img src="images/IT Manager/resume_1.png" alt="">
+                <div class="layer">
+                    <a href="https://drive.google.com/file/d/14iT3_4WrPCsYOMfigKofUppjj_S7zbce/view?usp=sharing">Download</a>
+                </div>
+            </div>
+            <div class="resume-col" id="center">
+                <img src="images/IT Manager/resume_5.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/it-program-manager-resume-example.pdf">Download</a>
+                </div>
+            </div>
+            <div class="resume-col">
+                <img src="images/IT Manager/resume_6.png" alt="">
+                <div class="layer">
+                    <a href="https://d25zcttzf44i59.cloudfront.net/it-services-manager-resume-example.pdf">Download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>

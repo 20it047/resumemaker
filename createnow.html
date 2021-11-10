@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <style>
+              *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+         nav{
+    background: #5271ff;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+
+  #sec1{
+    margin: 0;
+    padding: 0;
+    background-color: #e2f0f9;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    font-family: Century Gothic;
+}
+.wrapper{
+    width: 1170px;
+    margin: 50px auto;
+}
+.wrapper h2{
+    text-transform: uppercase;
+    font-family: Century Gothic;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin: 0;
+}
+.single-service {
+position: relative;
+width: 31%;
+height: 320px;
+background:#5271ff;
+box-sizing: border-box;
+padding: 0 15px;
+transition: .5s;
+overflow: hidden;
+float: left;
+margin: 0 10px;
+text-align: center;
+}
+.line {
+width: 150px;
+height: 3px;
+background: #000;
+margin: 0 auto 60px auto;
+}
+.single-service p{            
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.single-service h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Century Gothic;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 10px 0px;
+}
+.social {
+width: 60px;
+height: 60px;
+background: #262626;
+border-radius: 50%;
+margin: 5% auto;
+}
+.social i {
+font-size: 30px;
+padding: 15px;
+    color: #fff;
+}
+.single-service:hover{
+    box-shadow: 0 30px 35px rgba(255, 255, 255, 0.7);
+}
+.single-service span {
+position: absolute;
+top: 0;
+left: -110%;
+width: 100%;
+height: 100%;
+background: rgba(255, 255, 255, 0.7);
+transition: .7s;
+transform: skewX(10deg);
+}
+.single-service:hover span{
+    left: 110%;
+}
+
+@media (max-width:1000px){
+    .wrapper {
+    width: 100%;
+    }
+    .single-service {
+    width: 95%;
+    margin-bottom: 30px;
+    }
+    .wrapper h2 {
+    font-size: 30px;
+    }
+}
+
+/* button csss-------- */
+#cratebutton a{
+ 
+ font-size: 40px;
+ background-color: #5271ff;
+ color: white;
+ text-decoration: none;
+ border-radius: 5px;
+ text-align: center;
+ cursor: pointer;
+ padding: 10px;
+}
+#cratebutton a:hover{
+ 
+ font-size: 40px;
+ background-color: #052097;
+ color: white;
+ text-decoration: none;
+ border-radius: 5px;
+ text-align: center;
+ cursor: pointer;
+ padding: 10px;
+}
+#cratebutton{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <label class="logo">Resume Builder</label>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="/index.html#temp">Template</a></li>
+          <li><a href="/Examplepage.html">Example</a></li>
+          <li><a href="/index.html#sec1">Why Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+     <!-- section1 -->
+     <section id="sec1">
+        <div class="wrapper">
+            <h2 style="color: #5271ff; padding-top: 10px;">
+          3 step Pocess</h2>
+          <div class="line">
+          </div>
+          <div class="single-service">
+                <div class="social">
+          <i class="fa fa-pencil"></i></div>
+          <span></span>
+                 <h3>
+          Fill Details</h3>
+          <p>
+              Fill your details with various fill-up option according to your choice. You can also get some Suggestion for discription and other things which can help you to create beautiful resume.
+         </p>
+          </div>
+
+          <div class="single-service">
+                <div class="social">
+                    <i class="fa fa-address-card-o" ></i></div>
+          <span></span>
+                 <h3>
+          Select design</h3>
+          <p>
+            Choose from modern and professional templates. All of which can be customized to your liking.</p>
+          </div>
+          <div class="single-service">
+                <div class="social">
+          <i class="fa fa-check-circle-o	
+          "></i></div>
+          <span></span>
+                 <h3>
+          Download Resume</h3>
+          <p>
+            Download your resume and send it straight to the hiring manager. Whatever format you choose, we’ve got you covered.
+        </p>
+          </div>
+         
+
+          </div>
+          </section>
+          <div id="cratebutton" style="margin-top: -130px;">
+            <a href="/Page-1/page-1.html">Let's Start</a>
+        </div>
+        <div style="text-align: center; margin-top: 13px">
+        <a href="#" style="text-decoration: none; color:black; font-size: 15px;" >Back</a>
+    </div>
+
+          
+    
+</body>
+</html>

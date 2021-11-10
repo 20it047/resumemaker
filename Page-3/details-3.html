@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume Builder</title>
+        <link rel="stylesheet" href="details-3_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    </head>
+    <body>
+        <div id="menubar">
+            <!-- menubar -->
+            <nav>
+                <label class="logo">Resume Builder</label>
+                <ul>
+                  <li><a class="active" href="#">Home</a></li>
+                  <li><a href="/index.html#temp">Template</a></li>
+                  <li><a href="Examplepage.html">Example</a></li>
+                  <li><a href="/index.html#sec1">Why Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br><br>
+        <div id="details">
+            <div>
+                <a href="/Page-1/page-1.html" id="personal">PERSONAL INFO</a>
+            </div>
+            <div>
+                <a href="/Page-1.2/details-6.html" id="summary2">PROFILE INFO</a>
+            </div>
+            <div>
+                <a href="/Page-4/details-4.html" id="skills">SKILLS</a>
+            </div>
+            <div>
+                <a href="/Page-2/details-2.html" id="experience">EXPERIENCE</a>
+            </div>
+            <div>
+                <a href="/Page-3/details-3.html" id="education">EDUCATION</a>
+            </div>
+            <div>
+                <a href="/Page-5/details-5.html" id="summary">ACHIEVEMENT</a>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div id="instruction">
+            <h1>EDUCATION</h1>
+            <p>Add Information about your education background.</p><br><br>
+                <input type="text" placeholder="Enter the name of your Institute" id="school_0" class="form">
+                <input type="text" placeholder="Enter the City" id="city_0" class="form">
+                <input type="text" placeholder="Enter the State" id="state_0" class="form">
+                <input type="text" placeholder="Enter your Degree" id="degree_0" class="form">
+                <input type="text" placeholder="Enter your Field of Study" id="field_0" class="form">
+                <input type="text" placeholder="Enter your Grade" id="cgpa_0" class="form">
+                <select name="Month" id="graduation_month_0">Month
+                    <option value="select">--STARTING YEAR OF EDUCATION--</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                </select>
+                <select name="graduation_year-1" id="graduation_year_0" class="select">
+                    <option value="select">--SELECT GRADUATION YEAR--</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                </select>
+                <br>
+                <button onclick="addEducationFields()" class="btn" id="add">Add</button><br>
+                <input type="submit" class="btn" placeholder="SUBMIT" id="sub" onclick="passvalue()">
+            <br><br>
+            <a href="/Page-5/details-5.html" class="btn">
+                SAVE & NEXT
+            </a> 
+            <a href="/Page-2/details-2.html" class="btn">
+                PREVIOUS
+            </a>
+        </div>
+        <br><br><br><br>
+      
+    <script src="details-3_script.js"></script> 
+    </body>
+</html>

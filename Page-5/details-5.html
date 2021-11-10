@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume Builder</title>
+        <link rel="stylesheet" href="details-5_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    </head>
+    <body>
+        <div id="menubar">
+            <!-- menubar -->
+            <nav>
+                <label class="logo">Resume Builder</label>
+                <ul>
+                  <li><a class="active" href="#">Home</a></li>
+                  <li><a href="/index.html#temp">Template</a></li>
+                  <li><a href="Examplepage.html">Example</a></li>
+                  <li><a href="/index.html#sec1">Why Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br><br>
+        <div id="details">
+            <div>
+                <a href="/Page-1/page-1.html" id="personal">PERSONAL INFO</a>
+            </div>
+            <div>
+                <a href="/Page-1.2/details-6.html" id="summary2">PROFILE INFO</a>
+            </div>
+            <div>
+                <a href="/Page-4/details-4.html" id="skills">SKILLS</a>
+            </div>
+            <div>
+                <a href="/Page-2/details-2.html" id="experience">EXPERIENCE</a>
+            </div>
+            <div>
+                <a href="/Page-3/details-3.html" id="education">EDUCATION</a>
+            </div>
+            <div>
+                <a href="/Page-5/details-5.html" id="summary">ACHIEVEMENT</a>
+            </div>
+        </div>
+        <br><br><br>
+        <div id="instruction">
+            <h1>SUMMARY</h1>
+            <p>Write Some of Your Achievements</p><br><br>
+            <input type="text" placeholder="Enter an Achievement" class="form" id="achievement_0"><br>
+            <button onclick="addAchievements()" class="btn" id="add">Add</button><br>
+            <input type="submit" class="btn" placeholder="SUBMIT" id="sub" onclick="passvalue()">
+            <br><br>
+            <a href="/Page-6/choosetemp.html" class="btn">
+               CHOOSE A TEMPLATE
+            </a> 
+            <a href="/Page-3/details-3.html" class="btn">
+                PREVIOUS
+            </a>
+        </div>
+        <br><br><br><br>
+    <script src="details-5_script.js"></script> 
+    </body>
+</html>

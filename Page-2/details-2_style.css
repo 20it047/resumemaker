@@ -1,0 +1,176 @@
+/* menubar */
+*{
+  text-decoration: none;
+}
+body{
+  margin: 0px;
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    font-family: Century Gothic;
+    margin: 0px;
+  }
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 5px;
+  }
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+#menubar a.active, #menubar a:hover{
+    background: #1b9bff;
+    transition: .5s;
+  }
+#menubar{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+#menubar nav ul li a {
+    padding-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+/*main menu*/
+#details{
+display:flex;
+justify-content: center;
+border-top:2px solid black;
+border-bottom:2px solid black;
+padding:15px;
+background-color: blue;
+}
+/*main menu links*/
+#details a{
+padding:20px;
+font-family: Century Gothic;
+text-decoration: none;
+color:white;
+text-align: center;
+transition: 1s;
+}
+#experience{
+background-color: black;
+}
+#details a:active{
+background-color: black;
+color:white;
+}
+/*form body*/
+#instruction{
+padding-left: 50px;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 22px;
+background-color: #e2f0f9;
+}
+/*form body heading*/
+#instruction h1{
+text-decoration: none;
+color:blue;
+font-family:Century Gothic;
+}
+/*form*/
+.form{
+padding:15px;
+font-family: Century Gothic;
+font-size: 20px;
+border:2px solid black;
+border-radius: 7px;
+background-color: #5172ff;
+width:65%;
+margin:5px;
+outline:none;
+}
+.form:focus{
+padding:15px;
+font-family: Century Gothic;
+font-size: 20px;
+border:5px solid black;
+border-radius: 10px;
+background-color: black;
+color:black;
+background: transparent;
+outline:none;
+}
+.form::placeholder{
+color:black;
+}
+/*next and previous buttons*/
+.btn{
+background-color: orange;
+border:1px solid orange;
+border-radius:15px;
+padding:20px;
+margin:10px;
+font-size:20px;
+text-align:center;
+text-decoration: none;
+color:black;
+font-family: Century Gothic;
+}
+/*form dropdown menu*/
+#instruction select{
+padding:15px;
+font-family: Century Gothic;
+font-size: 20px;
+border: 2px solid black;
+border-radius: 7px;
+background-color: #5172ff;
+color:black;
+width:40%;
+margin:5px;
+outline:none;
+}
+#instruction select:focus{
+padding:15px;
+font-family: Century Gothic;
+font-size: 20px;
+border:5px solid black;
+border-radius: 10px;
+background-color: black;
+color:black;
+background: transparent;
+outline:none;
+}
+/*error message*/
+.error{
+margin-top:0px;
+font-family: Century Gothic;
+color:red;
+}
+/*error message for dropdown*/
+.p-select{
+margin-top:0px;
+font-family: Century Gothic;
+color:red;
+}
+/*submit button*/
+#sub{
+background-color: blue;
+color:white;
+border:1px solid blue;
+font-size:30px;
+font-weight: bold;
+}
